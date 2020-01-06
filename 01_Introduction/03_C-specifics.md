@@ -48,7 +48,7 @@ someFunc and func\(\) above both utilize {}. This is useful because it prevents 
 
 ### Filenames
 
-* **Header Files -** .h
+* **Header Files -** .h - not exactly libraries
   * Used to define C functions to be shared between several source files. These can include system headers \(interfaces to the operating system\) and personal headers. 
 * **Object Files -** .o
   * The result of a compilation of source file\(s\). 

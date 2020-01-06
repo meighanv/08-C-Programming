@@ -1,17 +1,24 @@
+/*
+Name: Vernon Meighan
+Date: 20200106
+This is meant to declare 4 different var types: int, float, double, and char.
+Once declared we are printing them out to the console.
+*/
+
 #include <stdio.h>
 
 int main(void)
 {
-	int <INT-VAR-NAME>;
-	float <FLOAT-VAR-NAME>;
-	double <DOUBLE-VAR-NAME>;
-	char <CHAR-VAR-NAME>;
+	int integer = 1;
+	float floating = 1.245;
+	double doubling = 4.543261609285187;
+	char character = 'C';
 
 	
-	printf("Your integer is %d \n", <INT-VAR-NAME>);
-	printf("Your float is %f \n", <FLOAT-VAR-NAME>);
-	printf("Your double is %lf \n", <DOUBLE-VAR-NAME>);
-	printf("Your first is %c \n", <CHAR-VAR-NAME>);
+	printf("Your integer is %d with a size of %d \n", integer, (int)sizeof(integer));
+	printf("Your float is %f with a size of %d \n", floating, (int)sizeof(integer));
+	printf("Your double is %lf with a size of %d \n", doubling, (int)sizeof(integer));
+	printf("Your first is %c with a size of %d \n", character, (int)sizeof(integer));
 
 	
 	return 0;

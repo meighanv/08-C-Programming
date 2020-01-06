@@ -107,7 +107,7 @@ Try listing the default include-paths in your system used by the "GNU C Preproce
 ```
 > cpp -v
 ......
-#include "..." search starts here:
+#include "..." search starts here: //THIS ("") IS FOR THOSE NON-STANDARD header files that exist in non-standard directories
 #include <...> search starts here:
  /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include
  /usr/include
@@ -127,7 +127,7 @@ Try listing the default include-paths in your system used by the "GNU C Preproce
 E.g. Suppose we have main.c, foo.c and bar.c and want to create an executable fubar, and suppose further that we need the math library:
 
 ```
-gcc -c foo.c
+gcc -c foo.c  // The -c option creates an object file
 gcc -c main.c
 gcc -c bar.c
 gcc -o fubar foo.o main.o bar.o -lm
