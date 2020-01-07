@@ -2,7 +2,7 @@
 Name: Vernon Meighan
 Date: 20200106
 Project: This program will take input of an amount of days and 
-convert to the number of years, weeks, and days
+convert to the equivalent number of years, weeks, and days
 */
 
 #include <stdio.h>
