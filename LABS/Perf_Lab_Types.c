@@ -18,7 +18,7 @@ int main(void)
     printf("size of char 1 %c as an int %d is %d \n", singleChar, (int)singleChar, (int)sizeof((int)singleChar));
     printf("size of char 2 %c is %d \n", singleChar2, (int)sizeof(singleChar2));
 
-    
 
     return 0;
 }
+    
