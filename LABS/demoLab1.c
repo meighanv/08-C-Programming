@@ -3,6 +3,10 @@
 int main(void)
 {
     int integer = 1;
+    /* floats only go to a precision of 6 decimal spaces; specifying 
+    more in print statements interprets adjacent spaces in memory as 
+    numbers to fill in those numbers beyond 6
+    */
     float singlePrecision = 3.14159265359;
     double doublePrecision = 3.14159265359;
     char singleChar = '$';

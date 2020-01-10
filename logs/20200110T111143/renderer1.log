@@ -1,0 +1,2 @@
+[2020-01-10 13:58:25.932] [renderer1] [error] [storage state.vscdb] transaction(): Error: SQLITE_IOERR_DELETE: disk I/O error
+[2020-01-10 13:58:25.933] [renderer1] [error] SQLITE_IOERR_DELETE: disk I/O error: Error: SQLITE_IOERR_DELETE: disk I/O error

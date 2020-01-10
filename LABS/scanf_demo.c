@@ -53,8 +53,15 @@ void getName(void) //Perf Lab 8 part I
     char first [10] = {0}; // Setting vars for name parts
     char middle [10] = {0};
     char last [10] = {0};
-    printf("Please enter full name using TABs after each part:\n"); //prompting user input with format instructions
-    scanf("%s\t%s\t%s", &first, &middle, &last); // Formatting the input to use tabs as delimeter
+    int c;
+    printf("Please enter full name. Press Enter after each part:\n"); //prompting user input with format instructions
+    //scanf("%9s\t%9s\t%9s", &first, &middle, &last); // Formatting the input to use tabs as delimeter; this has issues if user overflows buffer
+    scanf("%9s", first);
+    while ((c = fgetc(stdin)) != '\n' && c != EOF); /* Flush stdin */
+    scanf("%9s", middle);
+    while ((c = fgetc(stdin)) != '\n' && c != EOF); /* Flush stdin */
+    scanf("%9s", last);
+    while ((c = fgetc(stdin)) != '\n' && c != EOF); /* Flush stdin */
     printf("%s\t\n%s\t\n%s\n", first, middle, last); // Printing back input in different format
 }
 
@@ -76,7 +83,7 @@ void multiply(void) //Perf Lab 8 part II
 void main(void)
 {
     //miniPhrase(); //demo lab 4
-    getDate(); //demo lab 5
-    //getName(); //perf lab 8
+    //getDate(); //demo lab 5
+    getName(); //perf lab 8
     //multiply(); //perf lab 8
 }
