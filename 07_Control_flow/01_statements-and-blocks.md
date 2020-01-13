@@ -7,12 +7,12 @@
 
 A statement is an expression followed by a semicolon.
     
-    ```c
+```c
     [expression]; //example of a statement
     
     i = 0;  // assignment expression
     
-    ```
+```
 
 A block consists of a group of statements that are made into a single statement.
 
