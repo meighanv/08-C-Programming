@@ -17,21 +17,33 @@ DO-WHILE LOOP
 
 void main()
 {
-    int elements [26] = {0};
+    int userChar [26] = {0};
     char letter = 0;
     int i = 0;
+    printf("Please enter a phrase in lowercase one character at a time. Press enter twice to end input:\n");
     do 
     {
         letter = getchar();
-        elements[i] = toupper(letter);
+        
+        if (letter > 97 && letter <= 122) 
+        {
+            userChar[i] = toupper(letter);
+            //printf("%d %d %d\n",letter, i, userChar[i]); // rudimentary debug statement
+        }
+        else
+        {
+            userChar[i] = letter;
+        }
         i++;
+        getchar(); //clears the newline created by <Enter>
+        //printf("%d %d %d\n",letter, i, userChar[i]); // rudimentary debug statement
     }
-    while(i<26 || letter != "\n");
+    while(i<26 && letter != 10);
 
     for (i=0; i<26; i++)
     {
-        printf("%c\n",elements[i]);
-        if (!elements[i])
+        printf("%c\n",userChar[i]);
+        if (!userChar[i])
         {
             break;
         }
