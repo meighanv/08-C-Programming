@@ -98,7 +98,8 @@
                     },
                     {
                         "id": "workbench.action.files.saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -382,7 +383,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel"
+                                    "label": "Show &&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
