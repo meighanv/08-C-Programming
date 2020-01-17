@@ -1,5 +1,7 @@
 /*
-5.40--> (recursive main) 
+Name: Vernon Meighan
+Date: 20200116
+Description: 5.40--> (recursive main) 
 	Can main be called recursively? Write a program containing a function   (main). 
     Include (static) local variable count initialized to 1. Post-increment and print 
     the value of count each time main is called. What happens when your program runs?
