@@ -1,6 +1,6 @@
 # Performance Lab 1
 
-## Write a program that reads teh information for a hurricane from "storms2.txt" and then prints it
+## Write a program that reads the information for a hurricane from "storms2.txt" and then prints it
 
 Example output:
 ```
