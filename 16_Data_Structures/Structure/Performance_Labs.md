@@ -1,6 +1,6 @@
 # Performance Lab 1
 
-##   This program reads hurricane information from a data file and then prints the names of all hurricanes that have the maximum category in the file.( Using the storms2.txt file. 
+##   Write a program reads hurricane information from a data file and then prints the names of all hurricanes that have the maximum category in the file.( Using the storms2.txt file. 
 
 # Performance Lab 2
 
