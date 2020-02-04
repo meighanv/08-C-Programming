@@ -81,5 +81,5 @@ corresponding numbers to be entered and will store the entries in an array of st
 The program should allow a second name to be entered and output 
 all the numbers corresponding to the name, and optionally output all the names with their corresponding numbers.
 
-
+5. Write a program to compute the weekly pay for 10 machine shop workers with a 6 character ID, a 20 character name, the hours worked, and the hourly rate of pay. Compute the gross pay with 25% deductions from the gross pay for the net pay. Output the ID, name, hours worked, hourly rate of pay, gross pay, deductions, and net pay. The overtime pay rate over 40 hours is 1.5 times the hourly rate of pay. Organize the data by employee.
 
