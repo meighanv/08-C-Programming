@@ -19,3 +19,9 @@ The sorted array is:
 1 50 23 76 500 
 
 ```
+## Write a C program that implements the quick sort algorithm that takes in an array ( int arr[] = {80, 26, 37, 98, 50, 7};) and sorts it:
+Example output
+```
+Sorted array: 7 26 37 50 80 98
+
+```
