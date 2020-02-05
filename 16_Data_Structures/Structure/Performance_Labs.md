@@ -1,10 +1,15 @@
 # Performance Lab 1
 
-##   Write a program reads hurricane information from a data file and then prints the names of all hurricanes that have the maximum category in the file.( Using the storms2.txt file. 
+##  Write a program to read the information in storms2.txt. Use the preceding structure and print the information for the hurricanes that occurred between 1960 and 1969. Use an output format similar to the following:
+```
+Strongest Hurricanes between 1960 and 1969
+Name  Year  Category
+
+```
 
 # Performance Lab 2
 
-## Write a program that prints out a report giving the Maximum wave height for the tsunamis in "waves2.txt." Include the average wave height(in feet) and teh location of all tsunamis with a wave height higher than the average. 
+## Write a program that prints out a report giving the Maximum wave height for the tsunamis in "waves2.txt." Include the average wave height(in feet) and the location of all tsunamis with a wave height higher than the average. 
 
 Example output:
 ```
