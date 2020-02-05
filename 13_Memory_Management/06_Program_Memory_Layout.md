@@ -36,19 +36,28 @@ storing data related to function calls, such as return address, arguments, etc.
 int x = 100;
 int main()
 {
-// data stored on stack
-int a=2;
-float b=2.5;
-static int y;
-// allocate memory on heap
-int *ptr = (int *) malloc(2*sizeof(int));
-// values 5 and 6 stored on heap
-ptr[0]=5;
-ptr[1]=6;
-// deallocate memory on heap
-free(ptr);
-return 1;
+    // data stored on stack
+    int a=2;
+    float b=2.5;
+    static int y;
+    
+    // allocate memory on heap
+    int *ptr = (int *) malloc(2*sizeof(int));
+
+    // values 5 and 6 stored on heap
+    ptr[0]=5;
+    ptr[1]=6;
+
+    // deallocate memory on heap
+    free(ptr);
+    return 1;
 }
 ```
-
+In the above program, the variable x is a global variable initialized inside the program;
+this variable will be allocated in the Data segment. The variable y is a static variable that is
+uninitialized, so it is allocated in the BSS segment. The variables a and b are local variables,
+so they are stored on the program’s stack. The variable ptr is also a local variable, so it is
+also stored on the stack. However, ptr is a pointer, pointing to a block of memory, which is
+dynamically allocated using malloc(); therefore, when the values 5 and 6 are assigned to
+ptr[1] and ptr[2], they are stored in the heap segment.
 
