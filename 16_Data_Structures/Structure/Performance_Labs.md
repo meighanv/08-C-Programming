@@ -10,7 +10,10 @@ Name  Year  Category
 # Performance Lab 2
 
 ## Write a program that prints out a report giving the Maximum wave height for the tsunamis in "waves2.txt." Include the average wave height(in feet) and the location of all tsunamis with a wave height higher than the average. 
-
+```
+Arrangement of information on the ".txt" file: 
+09 02 1992 170 10 Nicaragua  ->   month    day   year    fatalities     max wave ht.(m)  Country
+```
 Example output:
 ```
 Summary Information for Tsunamis
