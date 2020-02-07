@@ -18,6 +18,7 @@ BUILD THOSE SAFETY CHECKS!!!!!
 
 #include <stdio.h>
 #include <string.h>
+#define dataSize(x)  (sizeof(x)/sizeof(*x))
 
 void main(void)
 {

@@ -1,0 +1,10 @@
+[2020-02-07 12:05:28.233] [main] [error] Backup: Could not delete stale backup: Error: ETXTBSY: text file is busy, rmdir '/media/GIT/08-C-Programming/Backups/8ebf85c441cce746b052efcf17752507'
+[2020-02-07 12:05:28.248] [main] [info] update#setState idle
+[2020-02-07 12:05:58.254] [main] [info] update#setState checking for updates
+[2020-02-07 12:05:58.275] [main] [info] update#setState idle
+[2020-02-07 13:05:58.270] [main] [info] update#setState checking for updates
+[2020-02-07 13:05:58.286] [main] [info] update#setState idle
+[2020-02-07 14:05:58.313] [main] [info] update#setState checking for updates
+[2020-02-07 14:05:58.324] [main] [info] update#setState idle
+[2020-02-07 15:05:58.343] [main] [info] update#setState checking for updates
+[2020-02-07 15:05:58.344] [main] [info] update#setState idle
