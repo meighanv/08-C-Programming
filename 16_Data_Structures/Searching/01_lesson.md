@@ -77,7 +77,7 @@ ANY type of data by ANY criteria
   * if m < key: proceed to search in the right half of the array (indices n/2+1 thru n-1)
 * Why does this help?  Each comparison removes about half of the array each time!
 * There is a clear "recursive" or "divide and conquer" strategy to this algorithm
-* We'll develop an *iterative* version of binary search
+* let's develop an *iterative* version of binary search as well as *recursive*
 
 ```c
 #include <stdio.h>
