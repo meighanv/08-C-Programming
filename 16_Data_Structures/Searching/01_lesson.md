@@ -193,7 +193,7 @@ int main(int argc, char **argv){
 	return 0;
 }
 ```
-## BinarySearch 
+## Iterative Example
 ```c
 #include<stdio.h>
 #include<stdlib.h>
