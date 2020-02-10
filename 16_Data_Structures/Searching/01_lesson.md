@@ -143,7 +143,7 @@ int main(void) {
     $$\frac{n + 1}{2} \approx \frac{n}{2}$$
   * Both the average and worst cases are *linear*
 * Binary Search?
-  * Derivation: whitepaper and in the book
+  
   * Only takes about $\log_2{(n)}$ comparisons
 
 #### Perspective
@@ -162,4 +162,68 @@ int main(void) {
   The number of comparisons doubles
   * binary search:
   $$\log_2{(n)} \rightarrow \log_2{(2n)} = \log_2{(n)} + \log_2{(2)} = \log_2{(n)} + 1$$
+
+## Recursive Example
+
+```c
+#include<stdio.h>
+#include<stdlib.h>
+
+int binarySearch(const int *arr, int l, int r, int k){
+	if(l >r){
+		return -1;
+	} else{
+		int m = (l + r) / 2;
+
+	if(arr[m] == k){
+		return m;
+	}else if (k < arr[m]){
+		return binarySearch(arr, l , m-1, k);
+	} else if(arr[m] < k) {
+		return binarySearch(arr, m+1, r, k);
+	}
+    }
+}
+
+int main(int argc, char **argv){
+
+	int arr[] = { -3,2,4,4,9,12,34,42,102,157,180};
+	int indexOf = binarySearch(arr, 0, 10, 42);
+	printf("found the element at index %d\n", indexOf);
+
+	return 0;
+}
+```
+## BinarySearch 
+```c
+#include<stdio.h>
+#include<stdlib.h>
+
+int binarySearch(const int *arr, int n, int k){
+	int l = 0;
+	int r = n-1;
+	while(l <= r){
+		int m = (l + r) / 2;
+		if(arr[m] == k){
+			return m;
+		}else if (k < arr[m]){
+			r = m-1;
+		}else{
+			l = m + 1;
+		}
+	}
+	return -1;
+}
+
+	
+
+int main(int argc, char **argv){
+
+	int arr[] = { -3,2,4,4,9,12,34,42,102,157,180};
+	int indexOf = binarySearch(arr, 11, 42);
+	printf("found the element at index %d\n", indexOf);
+
+	return 0;
+}
+```
 
