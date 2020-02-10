@@ -10,6 +10,9 @@ Please enter the searched key: 26
 The key 26 was found at 5 ( Starting from 0)
 
 ```
+### Search the file numbers.txt  that has a sorted 2D array. Create a program to search for a number from the file and also display something if the number is not found. 
+
+
 ## Real world problems in searching a file:
 
 ### Power Plant Data. 
