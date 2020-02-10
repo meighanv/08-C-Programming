@@ -57,8 +57,7 @@ int linearSearchForDoubles(const double *arr, int n, double key) {
 } 
 
 int linearSearchForStrings();
-int linearSearchForAirportsByGPSId();
-int linearSearchForAirportsByState();
+
 ```
 
 * Practical Problem: the above solution is only
