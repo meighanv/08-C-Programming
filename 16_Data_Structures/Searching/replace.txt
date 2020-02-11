@@ -1,0 +1,3 @@
+Example text: I am trying to create a file. it is through programming in C.
+It is very cold tonight, and it is snowing. do you like football? It might stop snowing.
+Hello, and good bye.

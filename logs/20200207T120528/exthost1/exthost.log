@@ -26,3 +26,19 @@
 [2020-02-07 12:06:01.509] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/24/usr/share/code/resources/app/extensions/markdown-language-features/dist/extension
 [2020-02-07 12:07:08.703] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.cpptools {"startup":false,"extensionId":{"value":"ms-vscode.cpptools","_lower":"ms-vscode.cpptools"},"activationEvent":"onLanguage:c"}
 [2020-02-07 12:07:08.706] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/ms-vscode.cpptools-0.26.3/dist/main
+[2020-02-10 13:57:58.298] [exthost] [warning] TextEditor is closed/disposed
+[2020-02-10 13:57:58.306] [exthost] [warning] TextEditor is closed/disposed
+[2020-02-10 13:57:58.306] [exthost] [warning] TextEditor is closed/disposed
+[2020-02-10 13:57:59.110] [exthost] [warning] TextEditor is closed/disposed
+[2020-02-10 13:57:59.110] [exthost] [warning] TextEditor is closed/disposed
+[2020-02-10 13:57:59.113] [exthost] [warning] TextEditor is closed/disposed
+[2020-02-10 13:57:59.113] [exthost] [warning] TextEditor is closed/disposed
+[2020-02-10 13:57:59.113] [exthost] [warning] TextEditor is closed/disposed
+[2020-02-10 13:57:59.113] [exthost] [warning] TextEditor is closed/disposed
+[2020-02-10 13:57:59.113] [exthost] [warning] TextEditor is closed/disposed
+[2020-02-10 13:57:59.113] [exthost] [warning] TextEditor is closed/disposed
+[2020-02-10 13:57:59.113] [exthost] [warning] TextEditor is closed/disposed
+[2020-02-10 13:57:59.760] [exthost] [warning] TextEditor is closed/disposed
+[2020-02-10 13:57:59.765] [exthost] [warning] TextEditor is closed/disposed
+[2020-02-10 13:57:59.765] [exthost] [warning] TextEditor is closed/disposed
+[2020-02-10 13:57:59.765] [exthost] [warning] TextEditor is closed/disposed
