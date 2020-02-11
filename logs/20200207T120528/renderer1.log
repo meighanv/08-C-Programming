@@ -10,3 +10,15 @@
 [2020-02-10 13:02:53.880] [renderer1] [error] SQLITE_IOERR_DELETE: disk I/O error: Error: SQLITE_IOERR_DELETE: disk I/O error
 [2020-02-10 15:14:56.699] [renderer1] [error] [storage state.vscdb] transaction(): Error: SQLITE_IOERR_DELETE: disk I/O error
 [2020-02-10 15:14:56.701] [renderer1] [error] SQLITE_IOERR_DELETE: disk I/O error: Error: SQLITE_IOERR_DELETE: disk I/O error
+[2020-02-11 09:25:03.109] [renderer1] [error] [storage state.vscdb] transaction(): Error: SQLITE_IOERR_DELETE: disk I/O error
+[2020-02-11 09:25:03.114] [renderer1] [error] SQLITE_IOERR_DELETE: disk I/O error: Error: SQLITE_IOERR_DELETE: disk I/O error
+[2020-02-11 10:05:04.795] [renderer1] [error] [storage state.vscdb] transaction(): Error: SQLITE_IOERR_DELETE: disk I/O error
+[2020-02-11 10:05:04.798] [renderer1] [error] SQLITE_IOERR_DELETE: disk I/O error: Error: SQLITE_IOERR_DELETE: disk I/O error
+[2020-02-11 10:36:04.933] [renderer1] [error] [storage state.vscdb] transaction(): Error: SQLITE_IOERR_DELETE: disk I/O error
+[2020-02-11 10:36:04.934] [renderer1] [error] SQLITE_IOERR_DELETE: disk I/O error: Error: SQLITE_IOERR_DELETE: disk I/O error
+[2020-02-11 11:26:06.631] [renderer1] [error] [storage state.vscdb] transaction(): Error: SQLITE_IOERR_DELETE: disk I/O error
+[2020-02-11 11:26:06.634] [renderer1] [error] SQLITE_IOERR_DELETE: disk I/O error: Error: SQLITE_IOERR_DELETE: disk I/O error
+[2020-02-11 13:32:09.071] [renderer1] [error] [storage state.vscdb] transaction(): Error: SQLITE_IOERR_DELETE: disk I/O error
+[2020-02-11 13:32:09.074] [renderer1] [error] SQLITE_IOERR_DELETE: disk I/O error: Error: SQLITE_IOERR_DELETE: disk I/O error
+[2020-02-11 13:44:09.207] [renderer1] [error] [storage state.vscdb] transaction(): Error: SQLITE_IOERR_DELETE: disk I/O error
+[2020-02-11 13:44:09.209] [renderer1] [error] SQLITE_IOERR_DELETE: disk I/O error: Error: SQLITE_IOERR_DELETE: disk I/O error

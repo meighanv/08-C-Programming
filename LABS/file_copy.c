@@ -32,5 +32,6 @@ void main(void)
             putc(c,dstfileptr); //print c variable value to the destination file
         }
     }
-    
+    fclose(srcfileptr);
+    fclose(dstfileptr);
 }

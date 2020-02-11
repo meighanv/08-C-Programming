@@ -93,6 +93,7 @@ int main()
             rows++; // move to next row
         }
     }
+    fclose(fileptr);//closing file
 
     int periodTot = arrTotal(elements,NROWS,NCOLS); //Call periodTot to return the total wattage used
     float average = calcAvg(periodTot,NROWS,NCOLS); // call calcAvg to return average
